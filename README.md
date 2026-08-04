@@ -34,7 +34,7 @@ NodeMCU ESP8266, MFRC522 RFID, PHP, MySQL, and WhatsApp notification integration
 
 ## Project Structure
 
-- `web/`: Web application and REST API
+- `public_html/`: Web application and REST API
 - `firmware/`: ESP8266 firmware
 - `database/`: Database structure
 - `docs/`: Diagrams and screenshots
