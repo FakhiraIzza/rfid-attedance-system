@@ -89,7 +89,16 @@ function logWaTime(PDO $pdo, string $uid, float $elapsedMs): void {
   $stmt->execute([$uid, $elapsedMs]);
 }
 
-$API_KEY = 'ALAZHAR_2025_SECRET';
+$API_KEY = getenv('RFID_API_KEY') ?: '';
+
+if ($API_KEY === '') {
+    http_response_code(500);
+    echo json_encode([
+        'success' => false,
+        'message' => 'API key belum dikonfigurasi'
+    ]);
+    exit;
+}
 
 // ====== AUTH API KEY ======
 $apiKey = $_SERVER['HTTP_X_API_KEY'] ?? '';
