@@ -1,3 +1,8 @@
+![PHP](https://img.shields.io/badge/PHP-8.x-777BB4)
+![ESP8266](https://img.shields.io/badge/ESP8266-IoT-blue)
+![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 # rfid-attedance-system
 
 # RFID-Based Student Attendance System
@@ -49,3 +54,5 @@ included in this repository.
 Fakhira Izza Mirwan  
 Information Technology Systems  
 Universitas Negeri Jakarta
+
+
