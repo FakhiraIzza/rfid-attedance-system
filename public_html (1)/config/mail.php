@@ -1,10 +1,9 @@
-<?php
 return [
-  'host' => 'smtp.gmail.com',
-  'port' => 587,
-  'encryption' => 'tls', // tls
-  'username' => 'presensismpia39@gmail.com',
-  'password' => '', // isi dengan App Password Gmail (jangan commit)
-  'from_email' => 'presensismpia39@gmail.com',
-  'from_name' => 'Presensi RFID',
+    'host' => 'smtp.gmail.com',
+    'port' => 587,
+    'encryption' => 'tls',
+    'username' => 'your-email@gmail.com',
+    'password' => '',
+    'from_email' => 'your-email@gmail.com',
+    'from_name' => 'RFID Attendance System',
 ];
