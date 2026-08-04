@@ -16,24 +16,24 @@
 #include <FS.h>
 
 // ================== KONFIG ==================
-const char* ssid     = "Fakhira";
-const char* password = "ayamgoreng";
+const char* ssid     = "/";
+const char* password = "/";
 
 // IP laptop XAMPP (dari ipconfig Wi-Fi)
-const char* serverHost = "172.20.10.12";
+const char* serverHost = "/";
 const bool useHttps = false;
 const uint16_t serverPort = 80;
 const bool httpsInsecure = true; // set false jika pakai fingerprint
 const char* httpsFingerprint = ""; // contoh: "AA BB CC ..."
 
 // pakai huruf kecil (lebih aman di Apache)
-String apiPath = "/presensi_web/api/absensi.php";
+String apiPath = "/";
 
 // Samakan dengan $API_KEY di absensi.php
-String apiKey  = "ALAZHAR_2025_SECRET";
+String apiKey  = "/";
 
 // Identitas device (bebas)
-String deviceId = "NODEMCU_ESP8266_ALAZHAR";
+String deviceId = "/";
 
 // ================== PIN ==================
 #define RST_PIN  0   // D3 (GPIO0)
